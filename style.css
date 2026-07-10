@@ -362,6 +362,53 @@ color:var(--gold);
 
 .hero {
 
+height:100vh;
+
+background:
+linear-gradient(
+rgba(0,0,0,.25),
+rgba(0,0,0,.4)
+),
+url("assets/images/hero.jpg");
+
+background-size:cover;
+
+background-position:center;
+
+animation:
+heroZoom 18s infinite alternate;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+color:white;
+
+}
+
+
+
+@keyframes heroZoom {
+
+
+from{
+
+background-size:100%;
+
+}
+
+
+to{
+
+background-size:115%;
+
+}
+
+
+}
+
 
 height:100vh;
 
