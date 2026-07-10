@@ -385,3 +385,43 @@ img.style.transition=
 }
 
 );
+.particle{
+
+position:fixed;
+
+top:-20px;
+
+width:8px;
+
+height:8px;
+
+background:#D8C4A8;
+
+border-radius:50%;
+
+pointer-events:none;
+
+z-index:999;
+
+animation:
+fall linear forwards;
+
+}
+
+
+@keyframes fall{
+
+
+to{
+
+transform:
+translateY(110vh)
+rotate(360deg);
+
+
+opacity:0;
+
+}
+
+
+}
