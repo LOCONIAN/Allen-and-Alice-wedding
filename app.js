@@ -142,13 +142,19 @@ threshold:0.15
 sections.forEach(section=>{
 
 
-section.style.opacity="0";
+sections.forEach(section=>{
+
+section.style.opacity="1";
 
 section.style.transform=
-"translateY(50px)";
+"translateY(0)";
 
 section.style.transition=
 "all 1.2s ease";
+
+revealObserver.observe(section);
+
+});
 
 
 revealObserver.observe(section);
