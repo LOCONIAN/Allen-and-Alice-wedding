@@ -969,3 +969,32 @@ gap:50px;
 
 
 }
+/* Countdown */
+
+.countdown-section{
+
+padding:120px 10%;
+
+text-align:center;
+
+background:#fff;
+
+}
+
+
+.countdown{
+
+margin-top:50px;
+
+font-family:
+"Cormorant Garamond";
+
+font-size:45px;
+
+letter-spacing:5px;
+
+color:#B9965A;
+
+line-height:1.8;
+
+}
