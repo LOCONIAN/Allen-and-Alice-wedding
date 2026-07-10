@@ -1022,7 +1022,30 @@ gap:50px;
 
 }
 
+.details{
 
+display:flex;
+
+flex-direction:column;
+
+gap:30px;
+
+}
+@media (min-width:768px){
+
+.details{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:60px;
+
+align-items:center;
+
+}
+
+}    
 }
 /* Countdown */
 
