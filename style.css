@@ -1,9 +1,17 @@
+img{
+    width:100%;
+    height:auto;
+    display:block;
+}
 /* =====================================
    Allen & Alice Wedding
    Luxury Editorial Style
    Version 1.0
 ===================================== */
-
+.container{
+    width:min(1100px,90%);
+    margin:auto;
+}
 
 :root {
 
